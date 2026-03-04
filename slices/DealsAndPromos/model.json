@@ -1,0 +1,67 @@
+{
+  "id": "deals_and_promos",
+  "type": "SharedSlice",
+  "name": "DealsAndPromos",
+  "description": "DealsAndPromos",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "promocard": {
+          "type": "Group",
+          "config": {
+            "label": "PromoCard",
+            "repeat": true,
+            "fields": {
+              "promoimage": {
+                "type": "Image",
+                "config": {
+                  "label": "PromoImage",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        },
+        "backbutton": {
+          "type": "Link",
+          "config": {
+            "label": "BackButton",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

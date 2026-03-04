@@ -1,0 +1,34 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Adult"
+						}
+					}
+				]
+			},
+			"button": {
+				"key": "8b652f00-cae1-4c1b-b0d9-e5fa0fafa1dd",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io",
+					"text": "carry"
+				}
+			},
+			"youtube_video_id": {
+				"__TYPE__": "FieldContent",
+				"value": "needle",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

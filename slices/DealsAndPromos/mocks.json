@@ -1,0 +1,77 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Consider"
+						}
+					}
+				]
+			},
+			"promocard": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"promoimage",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a",
+										"width": 3024,
+										"height": 3778
+									},
+									"url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a",
+									"width": 3024,
+									"height": 3778,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "mighty",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"link",
+								{
+									"key": "65781e3b-9bb7-4875-a081-56ffa251f399",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://twitter.com",
+										"text": "leave"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"backbutton": {
+				"__TYPE__": "LinkContent",
+				"key": "b8a7cffb-73ba-496c-a55a-44e10ebb8850",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io",
+					"text": "whose"
+				}
+			}
+		},
+		"items": []
+	}
+]
