@@ -79,7 +79,8 @@ const Navbar = ({ logo }: { logo: ImageField }) => {
                 onClick={() => {
                   setIsMobileMenuOpen(false);
                 }}
-                href={item.path}
+                href="#"
+                // href={item.path}
                 className="flex items-center"
               >
                 {item.title}
@@ -97,7 +98,11 @@ const Navbar = ({ logo }: { logo: ImageField }) => {
               key={index}
               className="flex items-center p-1 text-lg text-[#fff] font-bold-slanted"
             >
-              <Link href={item.path} className="flex items-center">
+              <Link
+                href="#"
+                // href={item.path}
+                className="flex items-center"
+              >
                 {item.title}
               </Link>
             </li>

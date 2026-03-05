@@ -64,7 +64,7 @@ function NewsRoomItem({ item }: NewsRoomProps) {
   return (
     <div
       className={clsx(
-        "relative overflow-hidden rounded-3xl md:col-span-2 drop-shadow-2xl shadow-xl"
+        "relative overflow-hidden rounded-3xl md:col-span-2 drop-shadow-2xl shadow-xl",
       )}
     >
       <PrismicNextImage
